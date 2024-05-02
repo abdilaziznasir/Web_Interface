@@ -1,0 +1,151 @@
+.parentcontainer {
+  border: 1px solid rgb(50, 50, 50);
+  display: grid;
+  grid-template-columns: 0.7fr 2fr 0.5fr;
+  grid-template-rows: 15vh 4vh 26vh 23vh 28vh 4vh;
+}
+.parentcontainer > * {
+  border: 1.5px solid rgb(152, 152, 152);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  grid-column: span 3;
+  background-color: silver;
+}
+.div2 {
+  grid-column: span 2;
+}
+.div3 {
+  grid-column: span 3;
+}
+.div7 > p {
+  margin: 0;
+  padding: 0;
+}
+.div7 > img {
+  padding-top: 10%;
+  width: auto;
+  padding-left: 1%;
+  padding-right: 2%;
+  width: 97%;
+  height: 25%;
+}
+.div8 {
+  grid-row: span 2;
+}
+
+.dduimage {
+  height: 100%;
+  width: 100%;
+}
+.bigcell {
+  grid-row: span 2;
+}
+h1 {
+  margin-top: 25px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.flexforhomelike {
+  display: flex;
+  gap: 10px;
+}
+.div4 > p {
+  margin: 0;
+  font-weight: bold;
+  color: red;
+  font-size: 13px;
+}
+#resetandlogin {
+  margin-left: 40%;
+}
+
+.div5 p {
+  margin: 0;
+  font-size: 13px;
+}
+.div5 .div5p {
+  font-weight: bold;
+}
+.div5 .div5label {
+  font-weight: bold;
+}
+.maleandfemale {
+  font-weight: 100;
+}
+.Anouncement {
+  margin: 0;
+}
+.border_maker_for_div5 {
+  padding-bottom: 5px;
+  margin: 2px;
+  border: 1px solid rgb(152, 152, 152);
+}
+
+.table {
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+}
+.div7 {
+  grid-row: span 2;
+}
+.onepartoftable {
+  background-color: green;
+}
+h5 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrow > img {
+  margin: 2%;
+  height: 30%;
+  width: 30%;
+  text-align: center;
+}
+.carrow2 > img {
+  height: 50%;
+  width: 50%;
+}
+.goodlock {
+  display: flex;
+  justify-content: center;
+}
+.number {
+  width: 4%;
+}
+.assessement {
+  width: 25%;
+}
+.date {
+  width: 18%;
+}
+.value {
+  width: 10%;
+}
+.picture {
+  width: 15%;
+}
+table {
+  border: 1px solid rgb(43, 43, 43);
+}
+td {
+  border-top: 2px solid rgb(59, 59, 59);
+  border-left: 2px solid rgb(85, 84, 84);
+}
+
+.div10 > img {
+  height: 70%;
+  width: 98%;
+  margin-top: 10%;
+}
+.div11 > p {
+  margin: 0;
+  font-weight: bold;
+}
