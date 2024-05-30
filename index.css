@@ -1,0 +1,58 @@
+body {
+  background-color: chocolate;
+}
+h1 {
+  color: crimson;
+  margin: 0;
+  
+}
+p {
+  color: black;
+}
+.to-do-list {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  text-align: center;
+  background-color: yellowgreen;
+  padding: 79px;
+  border: solid 3px yellow;
+  height: 400px;
+  box-shadow: 5px 4px 10px 20px;
+  margin-top: 50px;
+}
+
+button {
+  font: 4rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  background-color: brown;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  border: solid 3px aqua;
+  margin: 3px 5px;
+
+}
+.add-button {
+  background-color: blue;
+  /* color: red; */
+}
+.delete-button {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px 4px;
+}
+.move-up-button {
+  background-color: black;
+  font-size: larg;
+  box-shadow: 0px 1px 2px 4px violet;
+}
+li {
+  color: auto;
+  text-align: center;
+}
+
+footer {
+  color: blue;
+}
